@@ -4,6 +4,13 @@
   <pane side-menu-content>
     <header class="bar bar-header bar-dark">
       <h1 class="title">ToDo</h1>
+      <!-- New Task button-->
+      <button class="button button-icon" ng-click="editTasks()">
+        <i class="icon ion-edit"></i>
+      </button>
+      <button class="button button-icon" ng-click="newTask()">
+        <i class="icon ion-compose"></i>
+      </button>
     </header>
     <content scroll="false" has-header="true">
       <!-- our list and list items -->
