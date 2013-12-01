@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Build against local version of ionic-rails
+gem 'ionic-rails', path: '../ionic-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
