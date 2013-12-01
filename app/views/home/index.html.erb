@@ -5,8 +5,14 @@
     <header class="bar bar-header bar-dark">
       <h1 class="title">ToDo</h1>
     </header>
-    <content has-header="true">
-    </content>
+    <content scroll="false" has-header="true">
+      <!-- our list and list items -->
+      <list>
+        <item ng-repeat="task in tasks">
+          {{task.title}}
+        </item>
+      </list>
+    </div>
   </pane>
 
   <!-- Left menu content -->
